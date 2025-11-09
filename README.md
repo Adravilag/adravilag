@@ -121,23 +121,47 @@ const adrian = {
 ## 🚀 Proyectos Destacados
 
 ### 🏥 [MediQ - Sistema de Gestión Médica](https://github.com/Adravilag/MediQ-Demo)
-**Plataforma de gestión para centros médicos**
+**Plataforma integral de gestión para centros médicos con arquitectura Full Stack**
 
-Sistema integral para la gestión de citas, pacientes y consultas médicas, diseñado para optimizar el flujo de trabajo en centros de salud.
+Sistema completo para la gestión de citas, pacientes, tratamientos y facturación en centros de salud, con versión web y aplicación de escritorio. Incluye arquitectura modular, testing completo y documentación profesional.
 
-**🔧 Stack:**
-- Backend: Spring Boot, Java, JPA/Hibernate
-- Frontend: React, TailwindCSS
-- Base de datos: PostgreSQL
-- Auth: JWT, Spring Security
+**🔧 Stack Completo:**
 
-**✨ Features:**
-- ✅ Gestión de citas y calendario médico
-- ✅ Registro y seguimiento de pacientes
-- ✅ Sistema de autenticación seguro
-- ✅ Panel administrativo intuitivo
-- ✅ Generación de reportes
-- ✅ Interfaz responsive y moderna
+**Backend:**
+- NestJS 11, TypeScript 5.7, Node.js 22
+- REST API + GraphQL (Apollo Server)
+- SQLite3 (desarrollo/escritorio) / PostgreSQL (producción)
+- TypeORM, Class-validator
+- 77 tests unitarios (100% cobertura CRUD)
+- Swagger/OpenAPI + GraphQL Playground
+- Sistema de pagos (Bizum/Redsys)
+
+**Frontend:**
+- Angular 20+, TypeScript
+- TailwindCSS 4, DaisyUI
+- Electron 38 (aplicación de escritorio)
+- Arquitectura modular con lazy loading
+- 140+ iconos SVG Material Design
+- Sistema responsive completo
+
+**✨ Features Principales:**
+- ✅ **Gestión de Pacientes**: CRUD completo, búsquedas avanzadas, gestión de tutores
+- ✅ **Tratamientos y Sesiones**: Seguimiento clínico, evoluciones, estados
+- ✅ **Consentimientos Informados**: Workflow con máquina de estados (Draft → Signed → Accepted)
+- ✅ **Dashboard Analítico**: Métricas en tiempo real, KPIs, alertas inteligentes
+- ✅ **Sistema de Facturación**: Integración con Bizum/Redsys, webhook automático
+- ✅ **App de Escritorio**: Electron con backend integrado, funciona sin internet
+- ✅ **Testing Completo**: 77 tests unitarios pasando (100% cobertura)
+- ✅ **Documentación Profesional**: Swagger, GraphQL Playground, READMEs técnicos
+- ✅ **Docker & Deploy**: Dockerfile optimizado, listo para Render/Railway
+
+**🏗️ Arquitectura:**
+- Patrón Repository + Service + Controller
+- Dual API (REST + GraphQL)
+- Validación con DTOs tipados
+- Máquina de estados para flujos complejos
+- Interceptores y Guards
+- Base de datos persistente con migraciones
 
 [![Repo](https://img.shields.io/badge/View_Repo-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/Adravilag/MediQ-Demo)
 
@@ -148,7 +172,7 @@ Sistema integral para la gestión de citas, pacientes y consultas médicas, dise
 
 Aplicación web que permite a desarrolladores crear y personalizar portfolios profesionales de manera sencilla y visual.
 
-**� Stack:**
+**🔧 Stack:**
 - Frontend: React, TypeScript
 - Styling: TailwindCSS
 - Features: Plantillas personalizables, exportación de datos
@@ -242,12 +266,12 @@ Sistema IoT que integra sensores de movimiento con Raspberry Pi y procesa datos 
   - Servicios compartidos
 
 #### DevOps & Tools
-- � **Contenedores y Orquestación**
+- 🐳 **Contenedores y Orquestación**
   - Docker y Docker Compose
   - Kubernetes (conocimientos básicos)
   - Despliegue de aplicaciones
   
-- � **Herramientas de Desarrollo**
+- 🔧 **Herramientas de Desarrollo**
   - Git y control de versiones
   - VS Code y entornos de desarrollo
   - Postman para testing de APIs
@@ -264,7 +288,7 @@ Soy un **desarrollador en constante aprendizaje** con experiencia en:
 - ✅ **Documentación y organización** de proyectos
 - ✅ **Integración IoT** con hardware y software
 
-**Busco mi primera oportunidad profesional** para aplicar y ampliar estos conocimientos en un entorno real, trabajando en equipo y contribuyendo al desarrollo de productos con impacto.
+Busco **nuevas oportunidades profesionales** para seguir creciendo, aplicar y ampliar estos conocimientos, trabajando en equipo y contribuyendo al desarrollo de productos con impacto.
 
 ### 🛠️ Metodologías & Best Practices
 - ✅ **Clean Code** - Código legible y mantenible
@@ -282,7 +306,7 @@ Soy un **desarrollador en constante aprendizaje** con experiencia en:
 - ✅ **Completado recientemente**: Docker y Kubernetes - Contenedores y orquestación
 - 💡 **Explorando**: Arquitecturas modernas y optimización de rendimiento
 - 🎯 **Perfeccionando**: Mis habilidades en React, Spring Boot y las últimas versiones de Java
-- 🤝 **Abierto a**: Primera oportunidad profesional, trabajo remoto o en Cádiz
+- 🤝 **Abierto a**: Nuevas oportunidades profesionales, trabajo remoto o en la zona de Cádiz
 
 ### 🎓 En mi Radar de Aprendizaje
 - 🔵 **Astro** - En progreso, creando proyectos con contenido estático optimizado
@@ -311,7 +335,7 @@ Me gustaría explorar de manera independiente para proyectos personales:
 **¡Me encantaría saber de ti!**
 
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-adavilag--portfolio.vercel.app-00D9FF?style=for-the-badge)](https://adavilag-portfolio.vercel.app/)
-[![Email](https://img.shields.io/badge/📧_Email-Contáctame-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adrian.davila.dev@gmail.com)
+[![Email](https://img.shields.io/badge/📧_Email-Contáctame-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adavilag.contact@gmail.com)
 [![Twitter](https://img.shields.io/badge/🐦_Twitter-@davSaged-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/davSaged)
 [![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Adrián_Dávila-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/adrian-davila-guerra)
 [![GitHub](https://img.shields.io/badge/💻_GitHub-@Adravilag-181717?style=for-the-badge&logo=github)](https://github.com/Adravilag)
@@ -349,7 +373,7 @@ Me gustaría explorar de manera independiente para proyectos personales:
 #### 🚀 Proyectos que me Apasionan
 - 🧩 **Resolver problemas complejos** - Me encanta enfrentarme a desafíos difíciles y encontrar soluciones elegantes
 - 🤖 **Automatización de procesos** - Optimizar tareas repetitivas y mejorar la eficiencia
-- � **Experimentación** - Probar, fallar, aprender y volver a intentar hasta conseguir el resultado
+- 🔬 **Experimentación** - Probar, fallar, aprender y volver a intentar hasta conseguir el resultado
 - 🏗️ Sistemas de gestión empresarial (ERP, CRM, salud)
 - 🔌 Integraciones de APIs y servicios
 - 🌐 Aplicaciones web modernas y escalables
