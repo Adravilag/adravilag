@@ -16,7 +16,7 @@
 
 ## 💫 Sobre mí
 
-Soy un **desarrollador Full Stack** de Cádiz, España, especializado en crear soluciones tecnológicas robustas y escalables. Con experiencia profesional en desarrollo backend con **NestJS** y frontend moderno con **Angular 20+**, me apasiona construir aplicaciones completas desde la base de datos hasta la interfaz de usuario.
+Soy un **desarrollador Full Stack** de Cádiz, España, especializado en crear soluciones tecnológicas robustas y escalables. Con experiencia en desarrollo backend con **NestJS** y **Spring Boot** (últimas versiones de Java), y frontend moderno con **Angular 20+** y **React**, me apasiona construir aplicaciones completas desde la base de datos hasta la interfaz de usuario.
 
 Mi enfoque está en escribir **código limpio, mantenible y bien documentado**, siguiendo principios SOLID y mejores prácticas de la industria. He trabajado en proyectos de e-commerce, sistemas de gestión y aplicaciones en tiempo real, siempre buscando la excelencia técnica y la mejor experiencia de usuario.
 
@@ -26,20 +26,20 @@ const adrian = {
   role: 'Full Stack Developer',
   experience: {
     backend: {
-      primary: 'NestJS',
-      languages: ['TypeScript', 'JavaScript', 'Python'],
+      primary: ['NestJS', 'Spring Boot'],
+      languages: ['TypeScript', 'JavaScript', 'Java (Latest)', 'Python'],
       databases: ['PostgreSQL', 'MySQL', 'MongoDB'],
-      orm: ['TypeORM'],
+      orm: ['TypeORM', 'JPA/Hibernate'],
       apis: ['REST', 'GraphQL', 'WebSockets']
     },
     frontend: {
-      primary: 'Angular 20+',
+      frameworks: ['Angular 20+', 'React'],
       styling: ['TailwindCSS', 'DaisyUI', 'SCSS'],
-      state: ['Signals', 'RxJS', 'Resource API'],
+      state: ['Signals', 'RxJS', 'Resource API', 'React Hooks'],
       patterns: ['Reactive Forms', 'Standalone Components']
     },
     devOps: {
-      containers: ['Docker', 'Docker Compose'],
+      containers: ['Docker', 'Docker Compose', 'Kubernetes'],
       deployment: ['Render', 'Vercel', 'Neon DB'],
       vcs: ['Git', 'GitHub']
     },
@@ -51,7 +51,8 @@ const adrian = {
     ]
   },
   principles: ['Clean Code', 'SOLID', 'DRY', 'KISS'],
-  learning: ['Microservices Architecture', 'AWS', 'Kubernetes'],
+  learning: ['Astro'],
+  futureHobbies: ['Blender', 'Godot (Game Development)'],
   passion: 'Transformar ideas en productos digitales escalables y bien arquitecturados',
   availability: 'Abierto a oportunidades remotas o en Cádiz 🟢'
 };
@@ -63,6 +64,8 @@ const adrian = {
 
 ### Backend Development
 <p align="left">
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot"/>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
   <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS"/>
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
@@ -72,7 +75,9 @@ const adrian = {
 
 ### Frontend Development
 <p align="left">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
   <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular"/>
+  <img src="https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logo=astro&logoColor=white" alt="Astro"/>
   <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="TailwindCSS"/>
   <img src="https://img.shields.io/badge/DaisyUI-5A0EF8?style=for-the-badge&logo=daisyui&logoColor=white" alt="DaisyUI"/>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
@@ -90,6 +95,7 @@ const adrian = {
 ### DevOps & Tools
 <p align="left">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="Swagger"/>
@@ -114,37 +120,48 @@ const adrian = {
 
 ## 🚀 Proyectos Destacados
 
-### 🛍️ [Teslo Shop - E-commerce Full Stack](https://github.com/Adravilag/teslo-shop-nest)
-**Backend API REST completo con NestJS**
+### 🏥 [MediQ - Sistema de Gestión Médica](https://github.com/Adravilag/MediQ-Demo)
+**Plataforma de gestión para centros médicos**
 
-Una plataforma de e-commerce profesional con autenticación, gestión de productos, carga de imágenes y comunicación en tiempo real.
+Sistema integral para la gestión de citas, pacientes y consultas médicas, diseñado para optimizar el flujo de trabajo en centros de salud.
 
 **🔧 Stack:**
-- Backend: NestJS, TypeScript, TypeORM, PostgreSQL
-- Frontend: Angular 20+, TailwindCSS, DaisyUI
-- Auth: JWT, Passport, bcrypt
-- Real-time: Socket.IO para chat y notificaciones
-- Docs: Swagger/OpenAPI
-- Deploy: Render + Neon DB (PostgreSQL)
+- Backend: Spring Boot, Java, JPA/Hibernate
+- Frontend: React, TailwindCSS
+- Base de datos: PostgreSQL
+- Auth: JWT, Spring Security
 
 **✨ Features:**
-- ✅ CRUD completo de productos con relaciones
-- ✅ Sistema de autenticación y autorización con roles
-- ✅ Upload de imágenes con Multer
-- ✅ WebSockets para comunicación en tiempo real
-- ✅ Documentación API automática con Swagger
-- ✅ Seeders para datos de prueba
-- ✅ Paginación, filtros y búsqueda
-- ✅ Validación de datos con class-validator
-- ✅ Variables de entorno con validación Joi
-- ✅ Dockerizado para desarrollo
-- ✅ Deploy automatizado
+- ✅ Gestión de citas y calendario médico
+- ✅ Registro y seguimiento de pacientes
+- ✅ Sistema de autenticación seguro
+- ✅ Panel administrativo intuitivo
+- ✅ Generación de reportes
+- ✅ Interfaz responsive y moderna
 
-**📚 Documentación:**
-El proyecto incluye 8 guías detalladas que cubren desde la configuración inicial hasta el despliegue en producción.
+[![Repo](https://img.shields.io/badge/View_Repo-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/Adravilag/MediQ-Demo)
 
-[![Repo Backend](https://img.shields.io/badge/Backend_Repo-NestJS-E0234E?style=for-the-badge&logo=nestjs)](https://github.com/Adravilag/teslo-shop-nest)
-[![Repo Frontend](https://img.shields.io/badge/Frontend_Repo-Angular-DD0031?style=for-the-badge&logo=angular)](https://github.com/Adravilag/teslo-shop-angular)
+---
+
+### 👤 [Profile Craft - Portfolio Builder](https://github.com/Adravilag/profile-craft)
+**Herramienta para crear portfolios profesionales**
+
+Aplicación web que permite a desarrolladores crear y personalizar portfolios profesionales de manera sencilla y visual.
+
+**� Stack:**
+- Frontend: React, TypeScript
+- Styling: TailwindCSS
+- Features: Plantillas personalizables, exportación de datos
+
+**✨ Features:**
+- ✅ Múltiples plantillas de portfolio
+- ✅ Editor visual en tiempo real
+- ✅ Personalización completa de estilos
+- ✅ Exportación de proyectos
+- ✅ Responsive design
+- ✅ Dark/Light mode
+
+[![Repo](https://img.shields.io/badge/View_Repo-React-61DAFB?style=for-the-badge&logo=react)](https://github.com/Adravilag/profile-craft)
 
 ---
 
@@ -168,15 +185,6 @@ Sistema IoT que integra sensores de movimiento con Raspberry Pi y procesa datos 
 
 ---
 
-### 🏗️ [MediQ Demo](https://github.com/Adravilag/MediQ-Demo)
-**Aplicación de gestión médica**
-
-Proyecto demo para gestión de citas y pacientes en el sector salud.
-
-[![Repo](https://img.shields.io/badge/View_Repo-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/Adravilag/MediQ-Demo)
-
----
-
 ## 📊 Estadísticas de GitHub
 
 <div align="center">
@@ -193,118 +201,100 @@ Proyecto demo para gestión de citas y pacientes en el sector salud.
 
 ## 🎯 Experiencia & Competencias
 
-### 🔥 Especialidades Core
+### 🔥 Especialidades Técnicas
 
 #### Backend Development
-- 🚀 **APIs RESTful de Alto Rendimiento**
-  - Diseño e implementación de arquitecturas escalables
-  - Más de 30+ endpoints documentados en producción
-  - Optimización de queries y rendimiento de bases de datos
+- 🚀 **APIs RESTful**
+  - Desarrollo de APIs con NestJS y Spring Boot
+  - Diseño de arquitecturas escalables
+  - Documentación con Swagger/OpenAPI
+  - Optimización de consultas a bases de datos
   
 - 🔐 **Autenticación & Seguridad**
-  - Implementación completa de JWT con refresh tokens
-  - Sistemas de roles y permisos (RBAC)
-  - Estrategias Passport.js (local, JWT)
-  - Encriptación bcrypt para contraseñas
+  - Implementación de JWT
+  - Sistemas de roles y permisos
+  - Spring Security y Passport.js
+  - Buenas prácticas de seguridad
   
-- 📊 **Bases de Datos Relacionales**
-  - Diseño de esquemas complejos con múltiples relaciones
-  - Migraciones y seeders con TypeORM
-  - Optimización de consultas SQL
-  - Transacciones y manejo de integridad referencial
+- 📊 **Bases de Datos**
+  - Diseño de esquemas relacionales
+  - PostgreSQL, MySQL, MongoDB
+  - TypeORM y JPA/Hibernate
+  - Optimización de queries
 
 #### Frontend Development
-- ⚡ **Angular Moderno (v20+)**
-  - Standalone components (sin NgModules)
-  - Signals para reactive state management
-  - Resource API para data fetching eficiente
-  - Change Detection OnPush para performance
+- ⚡ **React & Angular**
+  - Desarrollo de SPAs modernas
+  - React Hooks y estado local
+  - Angular Signals y RxJS
+  - Componentes reutilizables
   
 - 🎨 **UI/UX Development**
-  - TailwindCSS para diseños modernos y responsive
-  - DaisyUI para componentes prediseñados
-  - Animaciones y transiciones suaves
+  - TailwindCSS para diseños responsive
+  - Interfaces modernas y accesibles
   - Mobile-first approach
+  - Experiencia de usuario fluida
   
-- 🔄 **State Management Avanzado**
-  - RxJS para flujos de datos complejos
-  - Signals para estado reactivo
-  - Servicios singleton para estado global
-  - Formularios reactivos con validaciones complejas
+- 🔄 **Gestión de Estado**
+  - React Context API y Hooks
+  - RxJS y Signals en Angular
+  - Formularios y validaciones
+  - Servicios compartidos
 
-#### Full Stack Integration
-- 🔌 **WebSockets & Real-time**
-  - Socket.IO para chat y notificaciones
-  - Sincronización de estado entre clientes
-  - Manejo de conexiones y desconexiones
+#### DevOps & Tools
+- � **Contenedores y Orquestación**
+  - Docker y Docker Compose
+  - Kubernetes (conocimientos básicos)
+  - Despliegue de aplicaciones
   
-- 📁 **File Upload & Management**
-  - Multer para gestión de archivos
-  - Validación de tipos y tamaños
-  - Optimización de imágenes
-  - Servicio de archivos estáticos
+- � **Herramientas de Desarrollo**
+  - Git y control de versiones
+  - VS Code y entornos de desarrollo
+  - Postman para testing de APIs
+  - Debugging y profiling
 
-### 💼 Experiencia Profesional
+### 💼 Nivel de Experiencia
 
-#### Proyectos Destacados
-- **E-commerce Full Stack** (Teslo Shop)
-  - Backend NestJS con más de 5,000 líneas de código
-  - Frontend Angular con arquitectura modular
-  - 30+ endpoints documentados con Swagger
-  - Autenticación JWT, roles, permisos
-  - Upload de archivos, WebSockets
-  - Desplegado en producción (Render + Neon DB)
+Soy un **desarrollador en constante aprendizaje** con experiencia en:
 
-- **IoT Integration System**
-  - Arduino + Raspberry Pi + Mule ESB
-  - Detección de movimiento en tiempo real
-  - API REST para procesamiento de eventos
-  - Integración hardware-software
+- ✅ **Proyectos personales y de práctica** en múltiples tecnologías
+- ✅ **Desarrollo Full Stack** con diferentes stacks (MERN, Spring Boot + React, MEAN, PEAN)
+- ✅ **Implementación de funcionalidades completas** desde BD hasta UI
+- ✅ **Aprendizaje autodidacta** y resolución de problemas
+- ✅ **Documentación y organización** de proyectos
+- ✅ **Integración IoT** con hardware y software
+
+**Busco mi primera oportunidad profesional** para aplicar y ampliar estos conocimientos en un entorno real, trabajando en equipo y contribuyendo al desarrollo de productos con impacto.
 
 ### 🛠️ Metodologías & Best Practices
-- ✅ **SOLID Principles** - Código mantenible y extensible
-- ✅ **Clean Code** - Legibilidad y autodocumentación
-- ✅ **Git Flow** - Gestión profesional de ramas
-- ✅ **Semantic Versioning** - Control de versiones consistente
-- ✅ **Code Reviews** - Feedback constructivo y mejora continua
-- ✅ **Testing** - Unit tests y tests de integración
-- ✅ **Documentation First** - 8 guías completas escritas
-
-### 📚 Documentación Técnica
-Una de mis fortalezas es crear **documentación clara y detallada**:
-- ✍️ Guías paso a paso para configuración de proyectos
-- 📖 Documentación de APIs con Swagger/OpenAPI
-- 🎓 Tutoriales técnicos para el equipo
-- 📝 READMEs completos y profesionales
-
----
-
-## 📖 Recursos y Documentación
-
-Me apasiona crear **documentación técnica detallada**. Algunos ejemplos:
-
-- 📝 [Guía de Configuración NestJS](https://github.com/Adravilag/teslo-shop-nest/blob/main/docs/01-setup.md)
-- 🔐 [Implementación de Autenticación JWT](https://github.com/Adravilag/teslo-shop-nest/blob/main/docs/04-authentication.md)
-- 🌐 [Despliegue con Render + Neon](https://github.com/Adravilag/teslo-shop-nest/blob/main/docs/08-deployment-render.md)
-- 📡 [WebSockets con Socket.IO](https://github.com/Adravilag/teslo-shop-nest/blob/main/docs/07-websockets-socketio.md)
+- ✅ **Clean Code** - Código legible y mantenible
+- ✅ **SOLID Principles** - Fundamentos de diseño
+- ✅ **Git Flow** - Control de versiones ordenado
+- ✅ **Documentation** - READMEs y comentarios claros
+- ✅ **Continuous Learning** - Siempre explorando nuevas tecnologías
 
 ---
 
 ## 🌱 Actualmente
 
-- 🔭 **Desarrollando**: Proyectos Full Stack con NestJS + Angular 20+
-- 📚 **Aprendiendo**: Arquitecturas de microservicios y Kubernetes
-- 💡 **Explorando**: Cloud Computing (AWS) y servicios serverless
-- 🎯 **Perfeccionando**: Patrones de diseño avanzados y clean architecture
-- 📖 **Escribiendo**: Documentación técnica y guías de desarrollo
-- 🤝 **Abierto a**: Oportunidades remotas o en Cádiz, colaboraciones open source
+- 🔭 **Desarrollando**: Proyectos Full Stack con diferentes stacks (Spring Boot + React, NestJS + Angular)
+- 📚 **Aprendiendo**: **Astro** - Framework moderno para sitios web rápidos
+- ✅ **Completado recientemente**: Docker y Kubernetes - Contenedores y orquestación
+- 💡 **Explorando**: Arquitecturas modernas y optimización de rendimiento
+- 🎯 **Perfeccionando**: Mis habilidades en React, Spring Boot y las últimas versiones de Java
+- 🤝 **Abierto a**: Primera oportunidad profesional, trabajo remoto o en Cádiz
 
 ### 🎓 En mi Radar de Aprendizaje
+- 🔵 **Astro** - En progreso, creando proyectos con contenido estático optimizado
 - ⚪ **Next.js** - SSR y SSG con React
-- ⚪ **GraphQL Federation** - Microservicios con GraphQL
-- ⚪ **Kubernetes** - Orquestación de contenedores
-- ⚪ **AWS Services** - Lambda, S3, RDS, CloudFront
-- ⚪ **Redis** - Caching y message broker
+- ⚪ **Microservicios** - Arquitecturas distribuidas
+- ⚪ **AWS Services** - Cloud computing y servicios en la nube
+- ⚪ **Testing avanzado** - TDD y e2e testing
+
+### 🎮 Hobbies & Proyectos Futuros
+Me gustaría explorar de manera independiente para proyectos personales:
+- 🎨 **Blender** - Modelado 3D y animación
+- 🎮 **Godot** - Desarrollo de videojuegos indie
 
 ---
 
@@ -346,8 +336,8 @@ Me apasiona crear **documentación técnica detallada**. Algunos ejemplos:
 
 #### 💼 Modalidad
 - ✅ **Trabajo Remoto** (preferido)
-- ✅ **Híbrido** en Cádiz, España
-- ✅ **Presencial** en Cádiz, España
+- ✅ **Híbrido** - Zona de San Fernando y alrededores, dispuesto a desplazamientos ocasionales (Sevilla, pocos días presenciales)
+- ✅ **Presencial** en San Fernando/Cádiz
 - ✅ **Freelance/Consultoría** (proyectos específicos)
 
 #### 🎯 Roles de Interés
@@ -357,39 +347,23 @@ Me apasiona crear **documentación técnica detallada**. Algunos ejemplos:
 - **Software Engineer** (TypeScript)
 
 #### 🚀 Proyectos que me Apasionan
-- 🛍️ Plataformas de e-commerce escalables
-- � Aplicaciones en tiempo real (chat, notificaciones)
-- 🏗️ Arquitecturas de microservicios
-- � Integraciones complejas (APIs, webhooks, IoT)
-- 📊 Sistemas de gestión empresarial (ERP, CRM)
+- 🧩 **Resolver problemas complejos** - Me encanta enfrentarme a desafíos difíciles y encontrar soluciones elegantes
+- 🤖 **Automatización de procesos** - Optimizar tareas repetitivas y mejorar la eficiencia
+- � **Experimentación** - Probar, fallar, aprender y volver a intentar hasta conseguir el resultado
+- 🏗️ Sistemas de gestión empresarial (ERP, CRM, salud)
+- 🔌 Integraciones de APIs y servicios
+- 🌐 Aplicaciones web modernas y escalables
 
-#### 💡 Lo que aporto
-- ✨ **Código limpio y mantenible** - SOLID, Clean Code, best practices
-- 📚 **Documentación detallada** - READMEs, guías técnicas, Swagger
-- 🚀 **Mentalidad de producto** - No solo código, sino soluciones
-- 🤝 **Trabajo en equipo** - Code reviews, pair programming, colaboración
-- 📈 **Aprendizaje continuo** - Siempre explorando nuevas tecnologías
+#### 💡 Lo que puedo aportar
+- ✨ **Código limpio y organizado** - Siguiendo buenas prácticas
+- 📚 **Documentación clara** - READMEs completos y comentarios útiles
+- 🚀 **Actitud proactiva** - Ganas de aprender y mejorar continuamente
+- 🤝 **Trabajo en equipo** - Colaboración y comunicación efectiva
+- 📈 **Adaptabilidad** - Rápido aprendizaje de nuevas tecnologías
 
 ---
 
 <div align="center">
-
-### 💭 Filosofía de Desarrollo
-
-> **"El código limpio no es código que funciona, es código que otros pueden entender, mantener y mejorar."**
-
-### 🎯 Mis Principios
-- 📖 **Documentación First** - Si no está documentado, no existe
-- 🧪 **Testing is not Optional** - El código sin tests es código legacy
-- 🎨 **UI/UX Matters** - La tecnología debe servir al usuario
-- 🤝 **Collaboration > Competition** - Juntos llegamos más lejos
-- 📈 **Always Learning** - El día que dejes de aprender, dejas de crecer
-
----
-
-![Visitor Count](https://profile-counter.glitch.me/Adravilag/count.svg)
-
-**⭐ Si te gustan mis proyectos, ¡dale una estrella en GitHub!**
 
 Hecho con ❤️ por [Adrián Dávila Guerra](https://github.com/Adravilag)
 
