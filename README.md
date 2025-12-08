@@ -1,9 +1,9 @@
 <!-- Banner de Presentación -->
 <div align="center">
   
-# 👋 ¡Hola! Soy Adrián Dávila Guerra
+#  ¡Hola! Soy Adrián Dávila Guerra
 
-### 🚀 Full Stack Developer | Backend Specialist | IoT Enthusiast
+###  Full Stack Developer | Backend Specialist | IoT Enthusiast
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-adavilag--portfolio.vercel.app-00D9FF?style=for-the-badge&logo=vercel)](https://adavilag-portfolio.vercel.app/)
 [![Twitter](https://img.shields.io/badge/@davSaged-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/davSaged)
@@ -14,7 +14,7 @@
 
 ---
 
-## 💫 Sobre mí
+##  Sobre mí
 
 Soy un **desarrollador Full Stack** de Cádiz, España, especializado en crear soluciones tecnológicas robustas y escalables. Con experiencia en desarrollo backend con **NestJS** y **Spring Boot** (últimas versiones de Java), y frontend moderno con **Angular 20+** y **React**, me apasiona construir aplicaciones completas desde la base de datos hasta la interfaz de usuario.
 
@@ -54,13 +54,13 @@ const adrian = {
   learning: ['Astro'],
   futureHobbies: ['Blender', 'Godot (Game Development)'],
   passion: 'Transformar ideas en productos digitales escalables y bien arquitecturados',
-  availability: 'Abierto a oportunidades remotas o en Cádiz 🟢'
+  availability: 'Abierto a oportunidades remotas o en Cádiz '
 };
 ```
 
 ---
 
-## 🛠️ Stack Tecnológico
+##  Stack Tecnológico
 
 ### Backend Development
 <p align="left">
@@ -118,14 +118,14 @@ const adrian = {
 
 ---
 
-## 🚀 Proyectos Destacados
+##  Proyectos Destacados
 
-### 🏥 [MediQ - Sistema de Gestión Médica](https://github.com/Adravilag/MediQ-Demo)
+###  [MediQ - Sistema de Gestión Médica](https://github.com/Adravilag/MediQ-Demo)
 **Plataforma integral de gestión para centros médicos con arquitectura Full Stack**
 
 Sistema completo para la gestión de citas, pacientes, tratamientos y facturación en centros de salud, con versión web y aplicación de escritorio. Incluye arquitectura modular, testing completo y documentación profesional.
 
-**🔧 Stack Completo:**
+** Stack Completo:**
 
 **Backend:**
 - NestJS 11, TypeScript 5.7, Node.js 22
@@ -144,18 +144,18 @@ Sistema completo para la gestión de citas, pacientes, tratamientos y facturaci�
 - 140+ iconos SVG Material Design
 - Sistema responsive completo
 
-**✨ Features Principales:**
-- ✅ **Gestión de Pacientes**: CRUD completo, búsquedas avanzadas, gestión de tutores
-- ✅ **Tratamientos y Sesiones**: Seguimiento clínico, evoluciones, estados
-- ✅ **Consentimientos Informados**: Workflow con máquina de estados (Draft → Signed → Accepted)
-- ✅ **Dashboard Analítico**: Métricas en tiempo real, KPIs, alertas inteligentes
-- ✅ **Sistema de Facturación**: Integración con Bizum/Redsys, webhook automático
-- ✅ **App de Escritorio**: Electron con backend integrado, funciona sin internet
-- ✅ **Testing Completo**: 77 tests unitarios pasando (100% cobertura)
-- ✅ **Documentación Profesional**: Swagger, GraphQL Playground, READMEs técnicos
-- ✅ **Docker & Deploy**: Dockerfile optimizado, listo para Render/Railway
+** Features Principales:**
+-  **Gestión de Pacientes**: CRUD completo, búsquedas avanzadas, gestión de tutores
+-  **Tratamientos y Sesiones**: Seguimiento clínico, evoluciones, estados
+-  **Consentimientos Informados**: Workflow con máquina de estados (Draft → Signed → Accepted)
+-  **Dashboard Analítico**: Métricas en tiempo real, KPIs, alertas inteligentes
+-  **Sistema de Facturación**: Integración con Bizum/Redsys, webhook automático
+-  **App de Escritorio**: Electron con backend integrado, funciona sin internet
+-  **Testing Completo**: 77 tests unitarios pasando (100% cobertura)
+-  **Documentación Profesional**: Swagger, GraphQL Playground, READMEs técnicos
+-  **Docker & Deploy**: Dockerfile optimizado, listo para Render/Railway
 
-**🏗️ Arquitectura:**
+** Arquitectura:**
 - Patrón Repository + Service + Controller
 - Dual API (REST + GraphQL)
 - Validación con DTOs tipados
@@ -167,228 +167,58 @@ Sistema completo para la gestión de citas, pacientes, tratamientos y facturaci�
 
 ---
 
-### 👤 [Profile Craft - Portfolio Builder](https://github.com/Adravilag/profile-craft)
+###  [Profile Craft - Portfolio Builder](https://github.com/Adravilag/profile-craft)
 **Herramienta para crear portfolios profesionales**
 
 Aplicación web que permite a desarrolladores crear y personalizar portfolios profesionales de manera sencilla y visual.
 
-**🔧 Stack:**
+** Stack:**
 - Frontend: React, TypeScript
 - Styling: TailwindCSS
 - Features: Plantillas personalizables, exportación de datos
 
-**✨ Features:**
-- ✅ Múltiples plantillas de portfolio
-- ✅ Editor visual en tiempo real
-- ✅ Personalización completa de estilos
-- ✅ Exportación de proyectos
-- ✅ Responsive design
-- ✅ Dark/Light mode
+** Features:**
+-  Múltiples plantillas de portfolio
+-  Editor visual en tiempo real
+-  Personalización completa de estilos
+-  Exportación de proyectos
+-  Responsive design
+-  Dark/Light mode
 
 [![Repo](https://img.shields.io/badge/View_Repo-React-61DAFB?style=for-the-badge&logo=react)](https://github.com/Adravilag/profile-craft)
 
 ---
 
-### 🎥 [Motion Detector - IoT Integration](https://github.com/Adravilag/Motion-Detector)
+###  [Motion Detector - IoT Integration](https://github.com/Adravilag/Motion-Detector)
 **Detección de movimiento con Arduino + Raspberry Pi + Mule ESB**
 
 Sistema IoT que integra sensores de movimiento con Raspberry Pi y procesa datos mediante Mule ESB Standalone.
 
-**🔧 Stack:**
+** Stack:**
 - Hardware: Arduino, Raspberry Pi 3 Model B+
 - Backend: Python, Mule ESB
 - Integration: API REST para procesamiento de eventos
 
-**✨ Features:**
-- ✅ Detección de movimiento en tiempo real
-- ✅ Procesamiento de eventos con Mule ESB
-- ✅ Integración hardware-software
-- ✅ API para monitoreo y alertas
+** Features:**
+-  Detección de movimiento en tiempo real
+-  Procesamiento de eventos con Mule ESB
+-  Integración hardware-software
+-  API para monitoreo y alertas
 
 [![Repo](https://img.shields.io/badge/View_Repo-Python-3776AB?style=for-the-badge&logo=python)](https://github.com/Adravilag/Motion-Detector)
 
 ---
 
-## 📊 Estadísticas de GitHub
+### SageBox – Microframework UI para React
 
-<div align="center">
+SageBox es un proyecto personal enfocado en crear un microframework de componentes UI para React, diseñado para ser minimalista, flexible y fácil de integrar en cualquier proyecto. Incluye utilidades visuales, helpers de diseño, componentes reutilizables y un enfoque orientado a productividad.
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Adravilag&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)](https://github.com/Adravilag)
+** Features:**
+- Características principales:
+- Componentes reutilizables y escalables
+- Sistema de estilos con TailwindCSS
+- Helpers y layouts preconstruidos
+- API clara y muy ligera
+- Pensado para desarrollo rápido y prototipado
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Adravilag&layout=compact&theme=tokyonight&hide_border=true)](https://github.com/Adravilag)
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Adravilag&theme=tokyonight&hide_border=true)](https://github.com/Adravilag)
-
-</div>
-
----
-
-## 🎯 Experiencia & Competencias
-
-### 🔥 Especialidades Técnicas
-
-#### Backend Development
-- 🚀 **APIs RESTful**
-  - Desarrollo de APIs con NestJS y Spring Boot
-  - Diseño de arquitecturas escalables
-  - Documentación con Swagger/OpenAPI
-  - Optimización de consultas a bases de datos
-  
-- 🔐 **Autenticación & Seguridad**
-  - Implementación de JWT
-  - Sistemas de roles y permisos
-  - Spring Security y Passport.js
-  - Buenas prácticas de seguridad
-  
-- 📊 **Bases de Datos**
-  - Diseño de esquemas relacionales
-  - PostgreSQL, MySQL, MongoDB
-  - TypeORM y JPA/Hibernate
-  - Optimización de queries
-
-#### Frontend Development
-- ⚡ **React & Angular**
-  - Desarrollo de SPAs modernas
-  - React Hooks y estado local
-  - Angular Signals y RxJS
-  - Componentes reutilizables
-  
-- 🎨 **UI/UX Development**
-  - TailwindCSS para diseños responsive
-  - Interfaces modernas y accesibles
-  - Mobile-first approach
-  - Experiencia de usuario fluida
-  
-- 🔄 **Gestión de Estado**
-  - React Context API y Hooks
-  - RxJS y Signals en Angular
-  - Formularios y validaciones
-  - Servicios compartidos
-
-#### DevOps & Tools
-- 🐳 **Contenedores y Orquestación**
-  - Docker y Docker Compose
-  - Kubernetes (conocimientos básicos)
-  - Despliegue de aplicaciones
-  
-- 🔧 **Herramientas de Desarrollo**
-  - Git y control de versiones
-  - VS Code y entornos de desarrollo
-  - Postman para testing de APIs
-  - Debugging y profiling
-
-### 💼 Nivel de Experiencia
-
-Soy un **desarrollador en constante aprendizaje** con experiencia en:
-
-- ✅ **Proyectos personales y de práctica** en múltiples tecnologías
-- ✅ **Desarrollo Full Stack** con diferentes stacks (MERN, Spring Boot + React, MEAN, PEAN)
-- ✅ **Implementación de funcionalidades completas** desde BD hasta UI
-- ✅ **Aprendizaje autodidacta** y resolución de problemas
-- ✅ **Documentación y organización** de proyectos
-- ✅ **Integración IoT** con hardware y software
-
-Busco **nuevas oportunidades profesionales** para seguir creciendo, aplicar y ampliar estos conocimientos, trabajando en equipo y contribuyendo al desarrollo de productos con impacto.
-
-### 🛠️ Metodologías & Best Practices
-- ✅ **Clean Code** - Código legible y mantenible
-- ✅ **SOLID Principles** - Fundamentos de diseño
-- ✅ **Git Flow** - Control de versiones ordenado
-- ✅ **Documentation** - READMEs y comentarios claros
-- ✅ **Continuous Learning** - Siempre explorando nuevas tecnologías
-
----
-
-## 🌱 Actualmente
-
-- 🔭 **Desarrollando**: Proyectos Full Stack con diferentes stacks (Spring Boot + React, NestJS + Angular)
-- 📚 **Aprendiendo**: **Astro** - Framework moderno para sitios web rápidos
-- ✅ **Completado recientemente**: Docker y Kubernetes - Contenedores y orquestación
-- 💡 **Explorando**: Arquitecturas modernas y optimización de rendimiento
-- 🎯 **Perfeccionando**: Mis habilidades en React, Spring Boot y las últimas versiones de Java
-- 🤝 **Abierto a**: Nuevas oportunidades profesionales, trabajo remoto o en la zona de Cádiz
-
-### 🎓 En mi Radar de Aprendizaje
-- 🔵 **Astro** - En progreso, creando proyectos con contenido estático optimizado
-- ⚪ **Next.js** - SSR y SSG con React
-- ⚪ **Microservicios** - Arquitecturas distribuidas
-- ⚪ **AWS Services** - Cloud computing y servicios en la nube
-- ⚪ **Testing avanzado** - TDD y e2e testing
-
-### 🎮 Hobbies & Proyectos Futuros
-Me gustaría explorar de manera independiente para proyectos personales:
-- 🎨 **Blender** - Modelado 3D y animación
-- 🎮 **Godot** - Desarrollo de videojuegos indie
-
----
-
-## 📫 Contacto
-
-<div align="center">
-
-### 💬 Hablemos de tu Próximo Proyecto
-
-¿Buscas un desarrollador Full Stack apasionado y comprometido?  
-¿Tienes un proyecto interesante en mente?  
-¿Quieres colaborar en código abierto?
-
-**¡Me encantaría saber de ti!**
-
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-adavilag--portfolio.vercel.app-00D9FF?style=for-the-badge)](https://adavilag-portfolio.vercel.app/)
-[![Email](https://img.shields.io/badge/📧_Email-Contáctame-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adavilag.contact@gmail.com)
-[![Twitter](https://img.shields.io/badge/🐦_Twitter-@davSaged-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/davSaged)
-[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Adrián_Dávila-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/adrian-davila-guerra)
-[![GitHub](https://img.shields.io/badge/💻_GitHub-@Adravilag-181717?style=for-the-badge&logo=github)](https://github.com/Adravilag)
-
----
-
-**⚡ Respuesta rápida garantizada**  
-📍 Basado en Cádiz, España | 🌐 Disponible para trabajo remoto  
-🕒 Horario: UTC+1 (CET)
-
-</div>
-
----
-
-## 💼 Disponibilidad Profesional
-
-<div align="center">
-
-### 🟢 **DISPONIBLE PARA OPORTUNIDADES**
-
-</div>
-
-#### 💼 Modalidad
-- ✅ **Trabajo Remoto** (preferido)
-- ✅ **Híbrido** - Zona de San Fernando y alrededores, dispuesto a desplazamientos ocasionales (Sevilla, pocos días presenciales)
-- ✅ **Presencial** en San Fernando/Cádiz
-- ✅ **Freelance/Consultoría** (proyectos específicos)
-
-#### 🎯 Roles de Interés
-- **Full Stack Developer** (NestJS + Angular)
-- **Backend Developer** (Node.js / NestJS)
-- **Frontend Developer** (Angular / React)
-- **Software Engineer** (TypeScript)
-
-#### 🚀 Proyectos que me Apasionan
-- 🧩 **Resolver problemas complejos** - Me encanta enfrentarme a desafíos difíciles y encontrar soluciones elegantes
-- 🤖 **Automatización de procesos** - Optimizar tareas repetitivas y mejorar la eficiencia
-- 🔬 **Experimentación** - Probar, fallar, aprender y volver a intentar hasta conseguir el resultado
-- 🏗️ Sistemas de gestión empresarial (ERP, CRM, salud)
-- 🔌 Integraciones de APIs y servicios
-- 🌐 Aplicaciones web modernas y escalables
-
-#### 💡 Lo que puedo aportar
-- ✨ **Código limpio y organizado** - Siguiendo buenas prácticas
-- 📚 **Documentación clara** - READMEs completos y comentarios útiles
-- 🚀 **Actitud proactiva** - Ganas de aprender y mejorar continuamente
-- 🤝 **Trabajo en equipo** - Colaboración y comunicación efectiva
-- 📈 **Adaptabilidad** - Rápido aprendizaje de nuevas tecnologías
-
----
-
-<div align="center">
-
-Hecho con ❤️ por [Adrián Dávila Guerra](https://github.com/Adravilag)
-
-</div>
+[![Repo](https://github.com/Adravilag/sagebox)](https://github.com/Adravilag/sagebox)
