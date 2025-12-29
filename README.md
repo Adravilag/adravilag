@@ -13,4 +13,4 @@ He trabajado en proyectos como **MediQ** (gestión médica full stack), **Profil
 
 ###  Contacto
 **Email:** adavilag.contact@gmail.com  
-**Portfolio:** https://adavilag-portfolio.vercel.app
+**Portfolio:** https://portfolio-adravilag.netlify.app/
